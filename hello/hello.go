@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// fmt.Println(greetings.Hello("ok"))
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("Sujan")
 	if err != nil {
 		log.Fatal(err)
 	}
